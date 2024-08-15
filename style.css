@@ -1,0 +1,207 @@
+#colorGreen {
+    color: #1ea358;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#fff;
+    margin: 0 auto;
+}
+.header-1 {
+    background-color: #000;
+    height: 75px;
+    width: 100%;
+    border-bottom: 3px solid #3d3c3c ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main {
+    display: block;
+}
+.logo {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.home ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+} 
+.home ul li a {
+    margin: 0 auto;
+    color: #a3a3a3;
+    text-decoration: none;
+    font-size: 18px;
+    width: 10%;
+    padding: 10px;
+}
+img {
+    height: 50px;
+    width: 110px;
+    float: right;
+}
+.log-in {
+    margin-left: auto;
+    width: 30%;
+    margin-right: 10px; /* Ajustando margem para o lado direito */
+   }
+.log-in .login-botton .login-botton2 {
+    margin-left: 10px;
+}
+.login-botton2 {
+    float: inline-end;
+    margin: 0 auto;
+    border: 1px;
+    border-color: #a3a3a3;
+    margin-right: 10px; /* Ajustando margem para o lado direito */
+}
+.login-botton2 {
+    background-color: #1ea358;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+.login-botton {
+    float: inline-end;
+    margin: 0 auto;
+    border: 1px;
+    border-color: #a3a3a3;
+}
+.login-botton {
+    background-color: lightgrey;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 15px; /* Ajustando margem para o lado direito */
+  }
+.login-botton:hover {
+    background-color: darkblue; /*mudando a cor do botão qnd mouse passa por cima*/
+  }
+.login-botton2:hover {
+    background-color: darkgreen; /*mudando a cor do botão qnd mouse passa por cima*/
+  }
+  .home ul li a:hover {
+    color: #1ea358; /* Mudando a cor quando o mouse passa por cima */
+}
+#big {
+    font-size: 56px;
+}
+.bkgColor {
+    background-color: #b3eacb; /*#f3dffc;*/
+    height: 580px;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    
+}
+.textoPrincipal {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 110px;
+}
+.desconto {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: right;
+    font-size: 18px;
+    margin-right: 220px;
+}
+.opcoes {
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    position: relative;
+    margin: 0 auto;
+    
+}
+.caixa{
+    width: 300px;
+    height: 450px;
+    background-color: #f8f8f8;
+    margin: 15px; /* Espaçamento entre as caixas */
+    border-radius: 20px; /* Raio dos cantos */
+    padding: 15px;
+    display: inline-block;
+    list-style-type: square;
+    position: static;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin-top: 320px;
+}
+.caixa ul li {
+    list-style-type: square;
+    z-index: 1;
+}
+.login-botton3 {
+background-color: #cda3df;
+color: #fff;
+padding: 10px 20px;
+border: 1px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 22px;
+margin-left: 50px ;
+}
+.login-botton4 {
+    background-color: #1ea358;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    margin-left: 50px ;
+}
+.titleBox {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.price {
+    font-size: 56px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+}
+.introText {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 35px;
+
+    }
+.subText {
+    font-size: 18px ;
+    text-align: left;
+    color: #737373;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 0 auto;
+}
+.typeList {
+    list-style-position: center;
+    font-size: 18px;
+    color: #737373;
+    margin-bottom: 10px;    
+}
+#only {
+    margin-top: 25px;
+}
+#two {
+    color: darkcyan;
+}
+#three {
+    color: darkgoldenrod;
+}
+#four {
+    color: purple;
+}
